@@ -3,6 +3,8 @@ pyseneye
 
 |Build Status| |Coverage Status|
 
+Quick Windows fork of PySeneye.  Tested only on my Windows 10 PC.  Will pull Seneye readings in Windows, as well as any virtual machines you pass the usb device to.
+
 A module for working with the Seneye range of aquarium and pond sensors.
 Support is provided for the HID/USB driver for the device although it is
 intended to add support for their API later.
@@ -16,6 +18,7 @@ Generated documentation can be found
 
 Quickstart
 ----------
+Download both Seneye_SUD_v_2.0.16.cat and Seneye_SUD_v_2.0.16.inf, then install the driver. (you will need to uninstall this driver in Device Mangager and delete the files when prompted to use the Seneye Connect App)
 
 Install pyseneye using ``pip``: ``$ pip install pyseneye``. Once that is
 complete you can import the SUDevice class and connect to your device.

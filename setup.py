@@ -6,7 +6,7 @@ import codecs
 import os
 import sys
 
-import pyseneye
+import pyseneye_windows
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -47,9 +47,9 @@ class CleanCommand(Command):
 
 
 setup(
-    name='pyseneye',
-    version=pyseneye._VERSION_,
-    url='http://github.com/iamthecage/pyseneye-windows/',
+    name='pyseneye_windows',
+    version=pyseneye_windows._VERSION_,
+    url='http://github.com/iamthecage/pyseneye_windows/',
     license='Apache Software License',
     author='Stephen Mc Gowan',
     tests_require=['pytest'],
@@ -58,7 +58,7 @@ setup(
     author_email='mcclown@gmail.com',
     description='A module for interacting with the Seneye range or aquarium and pond sensors',
     long_description=long_description,
-    packages=['pyseneye'],
+    packages=['pyseneye_windows'],
     include_package_data=True,
     platforms='any',
     classifiers = [

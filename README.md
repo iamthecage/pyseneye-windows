@@ -18,7 +18,7 @@ Download both Seneye_SUD_v_2.0.16.cat and Seneye_SUD_v_2.0.16.inf, then install 
 Install pyseneye using `pip`: `$ pip install pyseneye-windows`. Once that is complete you can import the SUDevice class and connect to your device.
 
 ```python
->>> from pyseneye.sud import SUDevice, Action
+>>> from pyseneye_windows.sud import SUDevice, Action
 >>> d = SUDevice()
 ```
 

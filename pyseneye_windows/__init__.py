@@ -15,4 +15,4 @@
 
 """*pyseneye* is to integrate with the Seneye range sensors."""
 
-_VERSION_ = "0.0.1"
+_VERSION_ = "0.0.2"

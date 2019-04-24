@@ -13,7 +13,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-"""*pyseneye.sud* implements the HID interface for the Seneye USB devices."""
+"""*pyseneye_windows.sud* implements the HID interface for the Seneye USB devices."""
 
 import time
 import struct

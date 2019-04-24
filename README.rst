@@ -22,7 +22,7 @@ complete you can import the SUDevice class and connect to your device.
 
 .. code:: python
 
-    >>> from pyseneye.sud import SUDDevice, Action
+    >>> from pyseneye.sud import SUDevice, Action
     >>> d = SUDevice()
 
 Once the class is initialised you can put the Seneye into interactive

@@ -13,7 +13,7 @@ Generated documentation can be found [here](http://pyseneye.readthedocs.io/en/la
 Quickstart
 ----------
 
-Install pyseneye using `pip`: `$ pip install pyseneye`. Once that is complete you can import the SUDevice class and connect to your device.
+Install pyseneye using `pip`: `$ pip install pyseneye-windows`. Once that is complete you can import the SUDevice class and connect to your device.
 
 ```python
 >>> from pyseneye.sud import SUDevice, Action

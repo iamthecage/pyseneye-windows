@@ -20,7 +20,7 @@ Quickstart
 ----------
 Download both Seneye_SUD_v_2.0.16.cat and Seneye_SUD_v_2.0.16.inf, then install the driver. (you will need to uninstall this driver in Device Mangager and delete the files when prompted to use the Seneye Connect App)
 
-Install pyseneye using ``pip``: ``$ pip install pyseneye``. Once that is
+Install pyseneye using ``pip``: ``$ pip install pyseneye-windows``. Once that is
 complete you can import the SUDevice class and connect to your device.
 
 .. code:: python

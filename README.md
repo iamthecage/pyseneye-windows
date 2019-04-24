@@ -13,9 +13,14 @@ Generated documentation can be found [here](http://pyseneye.readthedocs.io/en/la
 
 Quickstart
 ----------
-Download both Seneye_SUD_v_2.0.16.cat and Seneye_SUD_v_2.0.16.inf, then install the driver. (you will need to uninstall this driver in Device Mangager and delete the files when prompted to use the Seneye Connect App)
+Make sure Seneye Connect App is shutdown and unplug the Seneye from your PC
+Download both Seneye_SUD_v_2.0.16.cat and Seneye_SUD_v_2.0.16.inf
+Right Click on Seneye_SUD_v_2.0.16.inf and select Install
+(you will need to uninstall this driver in Device Mangager and delete the files when prompted to use the Seneye Connect App)
+Reinsert the Seneye USB
+You should have a Seneye device in Device Manager now listed under "libusb-win32 devices"
 
-Install pyseneye using `pip`: `$ pip install pyseneye-windows`. Once that is complete you can import the SUDevice class and connect to your device.
+Install pyseneye using `pip`: `$ pip install pyseneye_windows`. Once that is complete you can import the SUDevice class and connect to your device.
 
 ```python
 >>> from pyseneye_windows.sud import SUDevice, Action

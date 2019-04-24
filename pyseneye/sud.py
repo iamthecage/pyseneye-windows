@@ -524,9 +524,6 @@ class SUDevice:
         if dev is None:
             raise ValueError('Device not found')
 
-        if dev.is_kernel_driver_active(0):
-            dev.detach_kernel_driver(0)
-
         dev.set_configuration()
         usb.util.claim_interface(dev, 0)
         cfg = dev.get_active_configuration()
@@ -612,8 +609,7 @@ class SUDevice:
     def close(self):
         """Close connection to USB device and clean up instance."""
         # re-attach kernel driver
-        usb.util.release_interface(self._instance, 0)
-        self._instance.attach_kernel_driver(0)
+        usb.util.release_interface(self._instance, 0)        
 
         # clean up
         usb.util.release_interface(self._instance, 0)

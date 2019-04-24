@@ -49,7 +49,7 @@ class CleanCommand(Command):
 setup(
     name='pyseneye',
     version=pyseneye._VERSION_,
-    url='http://github.com/mcclown/pyseneye/',
+    url='http://github.com/iamthecage/pyseneye-windows/',
     license='Apache Software License',
     author='Stephen Mc Gowan',
     tests_require=['pytest'],
